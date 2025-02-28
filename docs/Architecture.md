@@ -1,4 +1,4 @@
-### Architecture Overview by Grok3
+# Architecture Overview by Grok3
 
 The ollama-mcp-bridge acts as middleware, translating between Ollama’s API and MCP’s JSON-RPC protocol. It enables local LLMs (e.g., Qwen, LLaMA, Mistral) to leverage MCP tools (like web search, filesystem access, or GitHub interactions) by routing requests and responses appropriately. The architecture can be visualized as a three-layer system:
 
